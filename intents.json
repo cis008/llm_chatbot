@@ -1,0 +1,261 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "hii",
+        "hi",
+        "hello",
+        "hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?",
+        "Yo",
+        "What's up?",
+        "Sup",
+        "How's it going?"
+      ],
+      "responses": [
+        "Hello! Welcome to MyAIGuru. How can I assist you today?",
+        "Hi there! I'm here to help. What's on your mind?",
+        "Hey! Feel free to ask me anything about AI, coding, or projects.",
+        "Greetings! What can I do for you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "I'm leaving",
+        "Have a good day",
+        "Adios"
+      ],
+      "responses": [
+        "Goodbye! Keep building amazing projects.",
+        "See you later! Happy coding.",
+        "Bye! Come back whenever you need help.",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Appreciate it",
+        "Thanks a lot",
+        "Thank you so much"
+      ],
+      "responses": [
+        "Happy to help!",
+        "You're welcome!",
+        "Anytime!",
+        "Glad I could be of assistance."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What is MyAIGuru?",
+        "Tell me about yourself",
+        "Who are you?",
+        "What do you do?",
+        "What is your purpose?",
+        "Define yourself"
+      ],
+      "responses": [
+        "MyAIGuru is an AI assistant designed to help with coding, AI, machine learning, deep learning, and project development.",
+        "I am MyAIGuru, your AI-powered learning and coding assistant, here to support your technical journey.",
+        "I help students and developers with programming concepts, AI algorithms, and building technical projects."
+      ]
+    },
+    {
+      "tag": "ai_topics",
+      "patterns": [
+        "What is AI?",
+        "Explain artificial intelligence",
+        "What is machine learning?",
+        "What is deep learning?",
+        "Tell me about neural networks",
+        "What is NLP?",
+        "Explain Natural Language Processing"
+      ],
+      "responses": [
+        "Artificial Intelligence (AI) is a broad area of computer science that makes computers seem like they have human intelligence.",
+        "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions.",
+        "Deep learning is a type of machine learning that uses neural networks with many layers (deep neural networks) to analyze complex patterns in large datasets.",
+        "Neural networks are computing systems inspired by the biological neural networks that constitute animal brains.",
+        "Natural Language Processing (NLP) is a field of AI that enables computers to understand, interpret, and generate human language."
+      ]
+    },
+    {
+      "tag": "programming_languages",
+      "patterns": [
+        "Which programming languages do you support?",
+        "Can you help with Python?",
+        "Do you know Java?",
+        "Can you help with web development?",
+        "What about C++?",
+        "Do you handle JavaScript?",
+        "Tell me about SQL"
+      ],
+      "responses": [
+        "I can assist with a wide range of languages including Python, Java, JavaScript, C++, SQL, and more.",
+        "Yes, I support multiple programming languages and frameworks for web development, data science, and more.",
+        "I can help with web development (HTML, CSS, JavaScript), backend systems, and AI-powered applications."
+      ]
+    },
+    {
+      "tag": "python_help",
+      "patterns": [
+        "Help me with Python",
+        "Python code example",
+        "Python project ideas",
+        "Explain Python syntax",
+        "How to use pandas in Python?",
+        "Python libraries for AI"
+      ],
+      "responses": [
+        "Of course! I can help with Python programming, from basic syntax to advanced projects. What do you need?",
+        "Python is a versatile language widely used for AI, web development, and data analysis. How can I help you with it?",
+        "For AI, popular Python libraries include TensorFlow, PyTorch, scikit-learn, and Pandas. What would you like to know?",
+        "I can provide code snippets, explain concepts, or suggest project ideas in Python. Just ask!"
+      ]
+    },
+    {
+      "tag": "web_development",
+      "patterns": [
+        "What is frontend development?",
+        "What is backend development?",
+        "Can you help me build a website?",
+        "Explain web development frameworks",
+        "What is React?",
+        "Tell me about Node.js",
+        "What is an API?"
+      ],
+      "responses": [
+        "Frontend development focuses on the user interface and user experience (UI/UX) using HTML, CSS, and JavaScript.",
+        "Backend development handles the server-side logic, databases, and APIs that power a web application.",
+        "I can guide you in building websites using modern frameworks like React, Angular, or Vue.js for the frontend, and Node.js, Django, or Flask for the backend.",
+        "An API (Application Programming Interface) allows different software applications to communicate with each other."
+      ]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "What is a CNN?",
+        "Explain RNN",
+        "What is an LSTM?",
+        "What are tensors?",
+        "How do neural networks learn?",
+        "What is backpropagation?",
+        "What is an activation function?"
+      ],
+      "responses": [
+        "A Convolutional Neural Network (CNN) is a type of deep learning model primarily used for analyzing visual imagery.",
+        "A Recurrent Neural Network (RNN) is designed for sequential data, like text or time series, by having connections that form a directed cycle.",
+        "Long Short-Term Memory (LSTM) networks are a special kind of RNN capable of learning long-term dependencies.",
+        "Tensors are multi-dimensional arrays that are the primary data structure used in deep learning frameworks like TensorFlow and PyTorch.",
+        "Neural networks learn through a process called training, where they adjust their internal parameters (weights) to minimize the difference between their predictions and the actual outcomes. This is often done using an algorithm called backpropagation.",
+        "An activation function in a neural network defines the output of a node given an input or set of inputs. Examples include ReLU, Sigmoid, and Tanh."
+      ]
+    },
+    {
+      "tag": "project_help",
+      "patterns": [
+        "Give me project ideas",
+        "Help me build a project",
+        "AI project ideas for beginners",
+        "Suggest a final year project in ML",
+        "I need a web dev project idea",
+        "Cool software project ideas"
+      ],
+      "responses": [
+        "For AI, you could build a sentiment analysis tool, a movie recommendation system, or an image classifier.",
+        "For web development, how about a personal portfolio website, a to-do list application, or a simple e-commerce site?",
+        "I can help you brainstorm, design, and even code software and AI projects. What are your interests?",
+        "A great final year project could be a real-time object detection system, a stock price predictor, or a chatbot for a specific domain."
+      ]
+    },
+    {
+      "tag": "database",
+      "patterns": [
+        "What is SQL?",
+        "Explain databases",
+        "What is MongoDB?",
+        "What is Firebase?",
+        "SQL vs NoSQL",
+        "Tell me about relational databases"
+      ],
+      "responses": [
+        "SQL (Structured Query Language) is the standard language for managing and querying relational databases.",
+        "MongoDB is a popular NoSQL database that stores data in flexible, JSON-like documents.",
+        "Firebase is a platform by Google that provides backend services, including a realtime NoSQL database, authentication, and hosting.",
+        "The main difference between SQL and NoSQL is that SQL databases are relational and have a predefined schema, while NoSQL databases are non-relational and have a dynamic schema."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I want to become an AI engineer",
+        "How do I start coding?",
+        "How can I learn AI?",
+        "I am confused about programming",
+        "Is it hard to learn machine learning?",
+        "What is the best way to learn to code?"
+      ],
+      "responses": [
+        "Start with programming fundamentals (Python is great for AI), then move to machine learning and deep learning concepts.",
+        "The key is consistency. Practice coding every day, even if it's just for a little while. Build projects to apply what you learn.",
+        "Learning AI can be challenging, but it's also very rewarding. The fastest way to grow is by building projects and getting hands-on experience.",
+        "Don't be afraid to ask for help or look at how others have solved similar problems. Every expert was once a beginner."
+      ]
+    },
+    {
+      "tag": "ml_algorithms",
+      "patterns": [
+        "What is Linear Regression?",
+        "Explain Logistic Regression",
+        "What are Decision Trees?",
+        "Tell me about Support Vector Machines (SVM)",
+        "What is K-Means Clustering?",
+        "Explain Naive Bayes"
+      ],
+      "responses": [
+        "Linear Regression is a supervised learning algorithm used to predict a continuous outcome variable (y) based on one or more predictor variables (x).",
+        "Logistic Regression is used for binary classification problems, predicting the probability that an instance belongs to a certain class.",
+        "Decision Trees are a non-parametric supervised learning method used for classification and regression. They model decisions as a tree-like graph.",
+        "Support Vector Machines (SVM) are powerful supervised learning models for classification and regression, which work by finding the hyperplane that best separates data points of different classes.",
+        "K-Means Clustering is an unsupervised learning algorithm that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean.",
+        "Naive Bayes is a probabilistic classifier based on applying Bayes' theorem with strong (naive) independence assumptions between the features."
+      ]
+    },
+    {
+      "tag": "tools_and_frameworks",
+      "patterns": [
+        "What is TensorFlow?",
+        "Tell me about PyTorch",
+        "What is scikit-learn?",
+        "What is Git?",
+        "Explain Docker",
+        "What is Kubernetes?"
+      ],
+      "responses": [
+        "TensorFlow is an open-source library developed by Google for deep learning and machine learning. It has a comprehensive, flexible ecosystem of tools and libraries.",
+        "PyTorch is an open-source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing. It's known for its flexibility and ease of use.",
+        "Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms.",
+        "Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It's essential for collaborative software development.",
+        "Docker is a platform that uses OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files.",
+        "Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management."
+      ]
+    }
+  ]
+}
